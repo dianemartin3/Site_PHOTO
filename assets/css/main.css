@@ -3706,6 +3706,10 @@
 	margin: 0;
 }
 
+.navbar-custom img {
+	margin-left: 5em;
+}
+
 @media only screen and (min-width: 736px) {
   .navbar-custom {
     border-bottom: 1px solid transparent;
@@ -3725,10 +3729,16 @@
 }
 
 @media screen and (max-width: 650px) {
+	.navbar-custom ul {
+		padding-left: 0;
+	}
 	.navbar-custom .nav li a {
 	  font-size: 13px;
 	  letter-spacing: 1px;
 	  padding: 3px;
+	}
+	.navbar-custom img {
+	  margin-left: 1em;
 	}
 }
 

@@ -2,9 +2,9 @@
 <nav class="navbar-custom" style="z-index: 1;">
 	<div class="container-fluid">
 		{% if page.active == "home" %}
-			<a href="{{ site.baseurl }}/" title="Home"><img src="{{ site.baseurl }}/logo.png" alt="logo" style="margin-left:5em;margin-top:8px;margin-bottom:8px;cursor:pointer;"/></a>
+			<a href="{{ site.baseurl }}/" title="Home"><img src="{{ site.baseurl }}/logo.png" alt="logo" style="margin-top:8px;margin-bottom:8px;"/></a>
 		{% else %}
-			<a href="{{ site.baseurl }}/" title="Home"><img src="{{ site.baseurl }}/logo.png" alt="logo" style="margin-left:5em;margin-top:8px;cursor:pointer;"/></a>
+			<a href="{{ site.baseurl }}/" title="Home"><img src="{{ site.baseurl }}/logo.png" alt="logo" style="margin-top:8px;"/></a>
 		{% endif %}
 		<ul class="nav">
 			{% for nav_hash in site.nav %}
