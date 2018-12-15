@@ -3739,6 +3739,7 @@
 	}
 	.navbar-custom img {
 	  margin-left: 1em;
+	  max-width: 90px;
 	}
 }
 
@@ -3778,6 +3779,7 @@
 
 @media screen and (max-width: 650px) {
 	.homepage h1{
+		font-size: 2.5rem;
 		letter-spacing: 5px;
 	}	
 }
