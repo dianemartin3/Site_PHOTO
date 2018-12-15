@@ -1,0 +1,35 @@
+# Site settings
+title: DMG Photographer
+header: DMG
+email: "diane-martin@hotmail.fr"
+description: "DMG, Photographe Paris et r&eacute;gion parisienne. Prestations book comédien, shootings, mariages, particuliers"
+og_description: "DMG, Photographe Paris et r&eacute;gion parisienne. Prestations book comédien, shootings, mariages, particuliers"
+baseurl: ""
+url: ""
+facebook_username: "DMGstd"
+instagram_username: "dmgphotographer"
+
+# Owner/author information
+owner:
+  name:   DMG
+  favicon: favicon.png
+  info: Portfolio DMG
+
+  # Internal nav
+nav:
+  - MODE: "galerie_mode/"  
+  - COMEDIENS/PORTRAITS: "galerie_portraits/"  
+  - OTHERS: "galerie_others/"  
+  - ABOUT: "about/"
+  
+ # All translation keys
+translations:
+ # 404.html
+  permalink: "/404.html"
+
+ # Build settings
+markdown: kramdown
+exclude: ["README.md"]
+
+sass:
+  style: compressed

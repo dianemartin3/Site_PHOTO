@@ -1,0 +1,22 @@
+<!-- Navigation -->
+<nav class="navbar-custom" style="z-index: 1;">
+	<div class="container-fluid">
+		{% if page.active == "home" %}
+			<a href="{{ site.baseurl }}/" title="Home"><img src="{{ site.baseurl }}/logo.png" alt="logo" style="margin-left:5em;margin-top:8px;margin-bottom:8px;cursor:pointer;"/></a>
+		{% else %}
+			<a href="{{ site.baseurl }}/" title="Home"><img src="{{ site.baseurl }}/logo.png" alt="logo" style="margin-left:5em;margin-top:8px;cursor:pointer;"/></a>
+		{% endif %}
+		<ul class="nav">
+			{% for nav_hash in site.nav %}
+				{% for nav_item in nav_hash %}
+					{% assign lowercase_nav_item = nav_item[0] | downcase %}
+					{% if page.active contains lowercase_nav_item or (page.active contains "portraits" and lowercase_nav_item contains "portraits") %}
+						<li class="active"><a href="{{ site.baseurl }}/{{ nav_item[1] }}">{{ nav_item[0] }}</a></li>
+					{% else %}
+						<li><a href="{{ site.baseurl }}/{{ nav_item[1] }}">{{ nav_item[0] }}</a></li>
+					{% endif %}
+				{% endfor %}
+			{% endfor %}
+		</ul>
+	</div>
+</nav>

@@ -1,0 +1,25 @@
+---
+title: DMG Photographer
+active: home
+images:
+ - image_path: /assets/img/PC001.jpg
+---
+
+<html>
+	{% include head.html %}
+	<div>
+		<body>
+			{% include nav.html %}
+			<div class="homepage">
+				<h1>DMG PHOTOGRAPHER</h1>
+				<h3>Paris & Région</h3>
+				{% for image in page.images %}
+					<img src="{{site.baseurl}}{{ image.image_path }}" alt="" />
+				{% endfor %}
+				<p>&copy; DMG - 2018 All rights reserved</p>
+			</div>
+			
+		</body>
+	</div>
+</html>
+

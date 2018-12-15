@@ -1,0 +1,16 @@
+---
+layout: default
+header-img: "img/404.jpg"
+permalink: "/404.html"
+redirect_to: "baseurl/"
+---
+{% if page.url == "/404.html" %}<meta http-equiv="refresh" content="5; url={{ site.baseurl }}/" />{% endif %}
+<section class="panel" id="first">
+	<div class="inner columns divided">
+		<div class="span-3">
+			<h2 class="major">Error 404</h2>
+			<p>Whoops, this page doesn't exist.</p>
+			<p>You will be redirected to <a href="{{ site.baseurl }}/">Home</a> in few seconds.</p>      
+		</div>
+	</div>
+</section>
