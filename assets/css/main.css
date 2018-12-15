@@ -3678,9 +3678,11 @@
   width: 100%;
   font-family: 'ITCAvantGardeStd-Bk', sans-serif;
 }
+
 .navbar-custom .navbar-brand {
   font-weight: 800;
 }
+
 .navbar-custom .nav li a {
   color: black;
   text-transform: uppercase;
@@ -3722,6 +3724,14 @@
   }
 }
 
+@media screen and (max-width: 650px) {
+	.navbar-custom .nav li a {
+	  font-size: 13px;
+	  letter-spacing: 1px;
+	  padding: 3px;
+	}
+}
+
 .navbar-custom .container-fluid .active a {
     color : rgba(0, 0, 0, 0.4);
 }
@@ -3754,4 +3764,10 @@
   justify-content: center;
   color: rgba(0, 0, 0, 0.66);
   font-size: 14px;
+}
+
+@media screen and (max-width: 650px) {
+	.homepage h1{
+		letter-spacing: 5px;
+	}	
 }
