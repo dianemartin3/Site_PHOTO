@@ -218,7 +218,7 @@
 			opacity: 0.25;
 		}
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 1024px) {
 
 		html {
 			height: auto;
@@ -441,7 +441,7 @@
 		text-align: right;
 	}
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 1024px) {
 
 		html {
 			font-size: 12pt;
@@ -795,7 +795,7 @@
 		opacity: 1.0;
 	}
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 1024px) {
 
 		form {
 			margin: -1.5rem 0 1.5rem 0;
@@ -1335,7 +1335,7 @@
 			margin-left: 1.5rem;
 		}
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 1024px) {
 
 		ul.grid-icons {
 			-moz-justify-content: -moz-flex-start;
@@ -1936,7 +1936,7 @@
 
 	}
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 1024px) {
 
 		.gallery {
 			-moz-flex-direction: column;
@@ -2731,7 +2731,7 @@
 			background-color: #323459;
 		}
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 1024px) {
 
 		.panel {
 			-moz-flex-direction: column;
@@ -3294,7 +3294,7 @@
 			flex-direction: row-reverse;
 		}
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 1024px) {
 
 		.panel.banner .content {
 			padding: 2.8875rem 1.75rem 1.3875rem 1.75rem ;
@@ -3317,7 +3317,7 @@
 
 	}
 
-	@media screen and (max-width: 736px) and (orientation: portrait) {
+	@media screen and (max-width: 1024px) and (orientation: portrait) {
 
 		.panel.banner .content {
 			-moz-flex-basis: auto;
@@ -3424,7 +3424,7 @@
 				background-image: linear-gradient(90deg, transparent 0%, rgba(0, 0, 0, 0.125) 30%, rgba(0, 0, 0, 0.175) 50%);
 			}
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 1024px) {
 
 		.panel.spotlight .content {
 			padding: 2.8875rem 1.75rem 1.3875rem 1.75rem ;
@@ -3498,7 +3498,7 @@
 
 		}
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 1024px) {
 
 		#page-wrapper {
 			height: auto;
@@ -3612,7 +3612,7 @@
 			opacity: 0;
 		}
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 1024px) {
 
 		#wrapper {
 			-moz-flex-direction: column;
@@ -3710,10 +3710,10 @@
 	margin-left: 5em;
 }
 
-@media only screen and (min-width: 736px) {
+@media only screen and (min-width: 1024px) {
   .navbar-custom {
     border-bottom: 1px solid transparent;
-	background-color: rgba(255, 255, 255, 0.3);
+		background-color: rgba(255, 255, 255, 0.3);
   }
   .navbar-custom .navbar-brand {
     color: white;
