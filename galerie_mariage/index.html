@@ -1,0 +1,40 @@
+---
+layout: default
+title: DMG Photographer
+active: galerie_mariage
+images:
+ - image_path: /img/000.jpg
+ - image_path: /img/001.jpg
+ - image_path: /img/002.jpg
+ - image_path: /img/003.jpg
+ - image_path: /img/004.jpg
+ - image_path: /img/005.jpg
+ - image_path: /img/006.jpg
+ - image_path: /img/007.jpg
+ - image_path: /img/008.jpg
+ - image_path: /img/009.jpg
+ - image_path: /img/010.jpg
+ - image_path: /img/011.jpg
+ - image_path: /img/012.jpg
+ - image_path: /img/013.jpg
+ - image_path: /img/014.jpg
+ - image_path: /img/015.jpg
+ - image_path: /img/016.jpg
+ - image_path: /img/017.jpg
+ - image_path: /img/018.jpg
+ - image_path: /img/019.jpg
+ - image_path: /img/020.jpg
+ - image_path: /img/021.jpg
+ - image_path: /img/022.jpg
+ - image_path: /img/023.jpg
+ - image_path: /img/024.jpg
+ - image_path: /img/025.jpg
+ - image_path: /img/026.jpg
+---
+<section class="panel">
+	<div class="gallery">
+		{% for image in page.images %}
+			<a href="{{site.baseurl}}/{{page.active}}{{ image.image_path }}" class="image" data-position="bottom"><img src="{{site.baseurl}}/{{page.active}}{{ image.image_path }}" alt="" /></a>
+		{% endfor %}
+	</div>
+</section>
