@@ -1,18 +1,17 @@
 # Site settings
-title: DMG Photographer
-header: DMG
+title: Photographe DMG
 email: "contact@dmg-photographer.com"
-description: "DMG, Photographe Paris et r&eacute;gion parisienne. Prestations book comédien, shootings, mariages, particuliers"
-og_description: "DMG, Photographe Paris et r&eacute;gion parisienne. Prestations book comédien, shootings, mariages, particuliers"
+description: "Photographe Paris et r&eacute;gion parisienne. Prestations book comédien, shootings, mariages, particuliers"
+og_description: "Photographe Paris et r&eacute;gion parisienne. Prestations book comédien, shootings, mariages, particuliers"
 baseurl: ""
 url: ""
-currentyear: 2019
+currentyear: 2020
 facebook_username: "DMGstd"
 instagram_username: "dmgphotographer"
 
 # Owner/author information
 owner:
-  name:   DMG
+  name: DMG
   favicon: favicon.png
   info: Portfolio DMG
 
