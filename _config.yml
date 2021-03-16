@@ -17,8 +17,8 @@ owner:
 
   # Internal nav
 nav:
-  - MODE: "galerie_mode/"
   - COMEDIENS/PORTRAITS: "galerie_portraits/"
+  - MODE: "galerie_mode/"
   - BEAUTY: "galerie_beauty/"
   - OTHERS: "galerie_others/"
   - MARIAGE: "galerie_mariage/"
